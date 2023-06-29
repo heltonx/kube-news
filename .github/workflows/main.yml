@@ -8,7 +8,7 @@ jobs:
   CI:
     runs-on: ubunto-latest
     steps:
-      - uses: actions/checkbut@v3
+      - uses: actions/checkout@v3
       - name: Docker build chatservice
         run: echo "Docker build webapp"
       - name: Docker build webapp
